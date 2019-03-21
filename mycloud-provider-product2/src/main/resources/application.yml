@@ -1,0 +1,86 @@
+spring:
+ profiles:
+   active:
+    - dev2
+
+info:
+  app.name: mycloud-provider-product2
+  company.name: forward
+  build.artifactId: $project.artifactId$
+  build.modelVersion: $project.modelVersion$
+---
+server:
+ port: 8081
+mybatis:
+ mapper-locations: # 所有的mapper映射文件
+ - classpath:mapping/*.xml
+spring:
+# security:
+#  user:
+#   name: admin
+#   password: admin
+#   roles:
+#   - USER
+ profiles: dev1
+ application:
+   name: mycloud-provider-product
+ datasource:
+   type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
+   driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
+   url: jdbc:mysql://localhost:3306/mysqldemo?serverTimezone=GMT%2B8 # 数据库连接地址
+   username: root # 数据库用户名
+   password: mysql # 数据库连接密码
+logging:
+  level:
+    cn.forward.mapper: debug
+eureka:
+  client:
+    service-url:
+     defaultZone: http://admin:admin@eureka1:7001/eureka,http://admin:admin@eureka2:7002/eureka
+     #defaultZone: http://eureka1:7001/eureka
+  instance:
+    instance-id: mycloud-provider-product2
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
+
+
+
+
+---
+server:
+ port: 8081
+mybatis:
+ mapper-locations: # 所有的mapper映射文件
+ - classpath:mapping/*.xml
+spring:
+# security:
+#  user:
+#   name: admin
+#   password: admin
+#   roles:
+#   - USER
+ profiles: dev2
+ application:
+   name: mycloud-provider-product
+ datasource:
+   type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
+   driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
+   url: jdbc:mysql://localhost:3306/mysqldemo?serverTimezone=GMT%2B8 # 数据库连接地址
+   username: root # 数据库用户名
+   password: mysql # 数据库连接密码
+logging:
+  level:
+    cn.forward.mapper: debug
+eureka:
+  client:
+    service-url:
+     defaultZone: http://admin:enjoy@eureka1:7001/eureka,http://admin:enjoy@eureka2:7002/eureka
+     #defaultZone: http://eureka1:7001/eureka
+  instance:
+    instance-id: mycloud-provider-product2
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
+
+

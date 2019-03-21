@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.forward.mapper.ProductMapper">
+    <select id="findById" resultType="cn.forward.entity.Product" parameterType="long">
+        select t.prodcutId,t.productName,t.productDesc from product t where t.prodcutId=#{id}
+    </select>
+    <select id="findAll" resultType="cn.forward.entity.Product">
+        select t.prodcutId,t.productName,t.productDesc from product t
+    </select>
+    <insert id="create" parameterType="cn.forward.entity.Product">
+        INSERT INTO product(productName,productDesc) VALUES (#{productName},database()) ;
+    </insert>
+</mapper>
