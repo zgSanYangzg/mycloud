@@ -9,10 +9,14 @@
         <module name="mycloud-api" />
         <module name="mycloud-consumer" />
         <module name="mycloud-consumer-feign" />
+        <module name="mycloud-consumer-hystrix" />
+        <module name="mycloud-consumer-hystrix-dashboard" />
         <module name="mycloud-consumer-ribbon" />
+        <module name="mycloud-consumer-turbine" />
         <module name="mycloud-eureka" />
         <module name="mycloud-eureka2" />
         <module name="mycloud-provider-product" />
+        <module name="mycloud-provider-product-hystrix" />
         <module name="mycloud-provider-product2" />
         <module name="mycloud-security" />
         <module name="mycloud-service-feign" />

@@ -12,13 +12,17 @@
         <module>mycloud-api</module>
         <module>mycloud-provider-product</module>
         <module>mycloud-provider-product2</module>
+        <module>mycloud-provider-product-hystrix</module>
         <module>mycloud-consumer</module>
         <module>mycloud-consumer-ribbon</module>
         <module>mycloud-consumer-feign</module>
+        <module>mycloud-consumer-hystrix</module>
         <module>mycloud-security</module>
         <module>mycloud-eureka</module>
         <module>mycloud-eureka2</module>
         <module>mycloud-service-feign</module>
+        <module>mycloud-consumer-hystrix-dashboard</module>
+        <module>mycloud-consumer-turbine</module>
     </modules>
 
     <properties>
