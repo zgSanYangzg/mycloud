@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 @RestController
-@RequestMapping("/prodcut")
+@RequestMapping("/product")
 public class ProductController {
 
     @Resource

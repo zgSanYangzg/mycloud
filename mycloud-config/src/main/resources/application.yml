@@ -1,0 +1,11 @@
+server:
+  port: 7101
+
+spring:
+  application:
+    name: mycloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zgSanYangzg/mycloudconfig.git
