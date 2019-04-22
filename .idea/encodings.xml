@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mycloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-consumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-consumer-hystrix" charset="UTF-8" />
@@ -14,8 +15,10 @@
     <file url="file://$PROJECT_DIR$/mycloud-provider-product" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-provider-product-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-provider-product2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mycloud-provider-user-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mycloud-service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mycloud-zuul-gateway" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

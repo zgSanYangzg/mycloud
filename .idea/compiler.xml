@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mycloud-api" />
+        <module name="mycloud-config" />
         <module name="mycloud-consumer" />
         <module name="mycloud-consumer-feign" />
         <module name="mycloud-consumer-hystrix" />
@@ -18,8 +19,10 @@
         <module name="mycloud-provider-product" />
         <module name="mycloud-provider-product-hystrix" />
         <module name="mycloud-provider-product2" />
+        <module name="mycloud-provider-user-hystrix" />
         <module name="mycloud-security" />
         <module name="mycloud-service-feign" />
+        <module name="mycloud-zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

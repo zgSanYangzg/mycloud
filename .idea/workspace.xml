@@ -5,9 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycloud-security/src/main/java/cn/forward/config/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud-security/src/main/java/cn/forward/config/WebSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/service/IProductClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/service/IProductClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycloud-api/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud-api/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycloud-consumer/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud-consumer/read.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +26,9 @@
     <ignored path="$PROJECT_DIR$/mycloud-consumer-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/target/" />
     <ignored path="$PROJECT_DIR$/mycloud-consumer-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/mycloud-zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/mycloud-provider-user-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/mycloud-config/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,85 +51,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductHystrixApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/java/cn/forward/ProductHystrixApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurbineApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/src/main/java/cn/forward/TurbineApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaApp2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-eureka2/src/main/java/cn/forward/EurekaApp2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaSecurityConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mycloud-eureka2/src/main/java/cn/forward/EurekaSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-security/src/main/java/cn/forward/config/WebSecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,6 +63,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>type</find>
+      <find>@Configuration</find>
+      <find>run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,57 +73,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mycloud-eureka2/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-security/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-api/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-api/read.md" />
-        <option value="$PROJECT_DIR$/mycloud-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product2/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/config/RestConfig.java" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product2/src/main/java/cn/noscan/conf/RibbonConfig.java" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product2/src/main/java/cn/forward/ProductApp2.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/ConsumerApp.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/controller/ConsumerProductController.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/read.md" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/config/RestConfig.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/controller/ConsumerProductController.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/ConsumerApp.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/ConsumerRibbonApp.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer/read.md" />
-        <option value="$PROJECT_DIR$/mycloud-feign-service/src/main/java/cn/forward/feign/FeignClientConfig.java" />
-        <option value="$PROJECT_DIR$/mycloud-feign-service/src/main/java/cn/forward/service/IProductClientService.java" />
-        <option value="$PROJECT_DIR$/mycloud-feign-service/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/config/RestConfig.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/controller/ConsumerProductController.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/ConsumerApp.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/ConsumerFeignApp.java" />
-        <option value="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/feign/FeignClientConfig.java" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/read.md" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/java/cn/forward/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/java/cn/forward/ProductHystrixApp.java" />
-        <option value="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/fallback/IProductClientServiceFallbackFactory.java" />
-        <option value="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/service/IProductClientService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-hystrix/read.md" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/src/main/java/cn/forward/HystrixDashboardApp.java" />
         <option value="$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mycloud-consumer-turbine/pom.xml" />
-        <option value="$PROJECT_DIR$/mycloud-consumer-turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mycloud-consumer-turbine/src/main/java/cn/forward/TurbineApp.java" />
         <option value="$PROJECT_DIR$/mycloud-security/src/main/java/cn/forward/config/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/db/my.sql" />
+        <option value="$PROJECT_DIR$/mycloud-eureka/read.md" />
+        <option value="$PROJECT_DIR$/mycloud-consumer-ribbon/read.md" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/ZuulApp.java" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/read.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mycloud-security/read.md" />
+        <option value="$PROJECT_DIR$/mycloud-api/src/main/java/cn/forward/entity/vo/Users.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-user-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/mycloud-provider-user-hystrix/src/main/java/cn/forward/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-user-hystrix/src/main/java/cn/forward/UsersApp.java" />
+        <option value="$PROJECT_DIR$/mycloud-consumer-turbine/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/config/ZuulConfig.java" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/filter/AuthorizedRequestFilter.java" />
+        <option value="$PROJECT_DIR$/mycloud-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/feign/FeignClientConfig.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-user-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product2/src/main/java/cn/forward/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/java/cn/forward/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/mycloud-eureka2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/fallback/IZUUlClientServiceallbackFactory.java" />
+        <option value="$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/java/cn/forward/controller/ConsumerProductController.java" />
+        <option value="$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/service/IZUUlClientService.java" />
+        <option value="$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/fallback/ProviderFallback.java" />
+        <option value="$PROJECT_DIR$/mycloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/mycloud-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycloud-config/src/main/java/cn/forward/ConfigApp.java" />
+        <option value="$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/config/RestConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mycloud-api/read.md" />
+        <option value="$PROJECT_DIR$/mycloud-consumer/read.md" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/read.md" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/Chamber.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/Chamber.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/ChamberTwo.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/RunChamber.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/ChamberTwoWorker.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread/MergeSort.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/tool/MakeArray.java" />
+        <option value="$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread/ForkjoinSort.java" />
       </list>
     </option>
   </component>
@@ -226,21 +153,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mycloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mycloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mycloud-consumer-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mycloud-consumer-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="mycloud-zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -267,17 +180,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="mycloud" type="58d84e3e:PackageViewProjectNode" />
-              <item name="mycloud-provider-product" type="616d4139:PackageViewModuleNode" />
+              <item name="mycloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -315,18 +229,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="mycloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mycloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mycloud-security" type="462c0819:PsiDirectoryNode" />
+              <item name="mycloud" type="58d84e3e:PackageViewProjectNode" />
+              <item name="mycloud-provider-product" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -351,6 +259,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.forward.thread" />
+      <recent name="cn.forward.tool" />
       <recent name="conf" />
       <recent name="cn.noscan.conf" />
     </key>
@@ -370,10 +280,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApp2">
-    <configuration name="ConsumerFeignHystrixApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.forward.ConsumerFeignHystrixApp" />
-      <module name="mycloud-consumer-hystrix" />
+  <component name="RunManager" selected="Application.ForkjoinSort">
+    <configuration name="ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.forward.ConfigApp" />
+      <module name="mycloud-config" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -382,42 +292,43 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HystrixDashboardApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.forward.HystrixDashboardApp" />
-      <module name="mycloud-consumer-hystrix-dashboard" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="ForkjoinSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.forward.thread.ForkjoinSort" />
+      <module name="mycloud-provider-product" />
+      <option name="VM_PARAMETERS" value="-Xmx2048M" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.forward.*" />
+          <option name="PATTERN" value="cn.forward.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ProductApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.forward.ProductApp" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.forward.thread.MergeSort" />
       <module name="mycloud-provider-product" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.forward.entity.*" />
+          <option name="PATTERN" value="cn.forward.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ProductHystrixApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.forward.ProductHystrixApp" />
-      <module name="mycloud-provider-product-hystrix" />
+    <configuration name="RunChamber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.forward.service.impl.RunChamber" />
+      <module name="mycloud-provider-product" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.forward.*" />
+          <option name="PATTERN" value="cn.forward.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TurbineApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.forward.TurbineApp" />
-      <module name="mycloud-consumer-turbine" />
+    <configuration name="ZuulApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.forward.ZuulApp" />
+      <module name="mycloud-zuul-gateway" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -478,19 +389,19 @@
     <list>
       <item itemvalue="Spring Boot.EurekaApp" />
       <item itemvalue="Spring Boot.EurekaApp2" />
-      <item itemvalue="Application.ProductApp" />
-      <item itemvalue="Application.ProductHystrixApp" />
-      <item itemvalue="Application.ConsumerFeignHystrixApp" />
-      <item itemvalue="Application.HystrixDashboardApp" />
-      <item itemvalue="Application.TurbineApp" />
+      <item itemvalue="Application.ZuulApp" />
+      <item itemvalue="Application.ConfigApp" />
+      <item itemvalue="Application.RunChamber" />
+      <item itemvalue="Application.ForkjoinSort" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TurbineApp" />
-        <item itemvalue="Application.HystrixDashboardApp" />
-        <item itemvalue="Application.ConsumerFeignHystrixApp" />
-        <item itemvalue="Application.ProductHystrixApp" />
-        <item itemvalue="Application.ProductApp" />
+        <item itemvalue="Application.ForkjoinSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.RunChamber" />
+        <item itemvalue="Application.ConfigApp" />
+        <item itemvalue="Application.ZuulApp" />
       </list>
     </recent_temporary>
   </component>
@@ -515,6 +426,22 @@
       <workItem from="1553089960153" duration="6191000" />
       <workItem from="1553131593510" duration="1019000" />
       <workItem from="1553261325842" duration="6516000" />
+      <workItem from="1553407914330" duration="554000" />
+      <workItem from="1553409855405" duration="2138000" />
+      <workItem from="1553483130184" duration="1949000" />
+      <workItem from="1553524371365" duration="4278000" />
+      <workItem from="1553562366754" duration="975000" />
+      <workItem from="1553648707673" duration="2454000" />
+      <workItem from="1553695302561" duration="5203000" />
+      <workItem from="1553736000652" duration="3280000" />
+      <workItem from="1554121852367" duration="4729000" />
+      <workItem from="1554340894017" duration="1797000" />
+      <workItem from="1554906850339" duration="57000" />
+      <workItem from="1555464297782" duration="1915000" />
+      <workItem from="1555763801448" duration="9147000" />
+      <workItem from="1555806211518" duration="8663000" />
+      <workItem from="1555899676974" duration="3361000" />
+      <workItem from="1555937546169" duration="6226000" />
     </task>
     <servers />
   </component>
@@ -545,7 +472,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42665000" />
+    <option name="totallyTimeSpent" value="99391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -560,20 +487,21 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39876354" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39871383" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.329582" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.38390094" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.41157556" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2825397" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.59003216" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26190478" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info id="Web" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.329582" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -581,12 +509,11 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32457495" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.075851396" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Find" order="4" />
@@ -604,9 +531,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.16507937" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2730159" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.28650793" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23015873" />
       <window_info anchor="right" id="Database" order="6" weight="0.32936507" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info id="Web" order="0" side_tool="true" />
@@ -626,375 +553,51 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/tool/MakeArray.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product2/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/RandomRule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product2/src/main/java/cn/noscan/conf/RibbonConfig.java" />
-    <entry file="file://$PROJECT_DIR$/mycloud-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/controller/ConsumerProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="39" column="98" selection-start-line="39" selection-start-column="98" selection-end-line="39" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/config/RestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/noscan/conf/RibbonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-ribbon/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product2/src/main/java/cn/forward/ProductApp2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/config/RestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/controller/ConsumerProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-ribbon/src/main/java/cn/forward/ConsumerRibbonApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/controller/ConsumerProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/ConsumerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/config/RestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-feign/src/main/java/cn/forward/ConsumerFeignApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mycloud-consumer-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-feign/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="12" selection-start-column="12" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/target/classes/cn/forward/controller/ProductController.class" />
+    <entry file="file://$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/config/ZuulConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-feign/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/filter/AuthorizedRequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mycloud-eureka2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-eureka/src/main/java/cn/forward/EurekaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/java/cn/forward/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/ProductApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/fallback/IProductClientServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/feign/FeignClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/service/IProductClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/java/cn/forward/ConsumerFeignHystrixApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix-dashboard/src/main/java/cn/forward/HystrixDashboardApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-provider-product-hystrix/src/main/java/cn/forward/ProductHystrixApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-security/src/main/java/cn/forward/config/WebSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-consumer-turbine/src/main/java/cn/forward/TurbineApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="792">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1005,10 +608,333 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycloud-eureka2/src/main/java/cn/forward/EurekaSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-user-hystrix/src/main/java/cn/forward/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-user-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-zuul-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-eureka/src/main/java/cn/forward/EurekaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-user-hystrix/src/main/java/cn/forward/UsersApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/ZuulApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-zuul-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/fallback/IProductClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/fallback/IZUUlClientServiceallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/java/cn/noscan/conf/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/java/cn/forward/config/RestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/java/cn/forward/ConsumerFeignHystrixApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer-hystrix/src/main/java/cn/forward/controller/ConsumerProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-service-feign/src/main/java/cn/forward/service/IZUUlClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-zuul-gateway/src/main/java/cn/forward/fallback/ProviderFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-config/src/main/java/cn/forward/ConfigApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/forward/config/RestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer/src/main/java/cn/noscan/conf/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-api/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-consumer/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/ProductApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-security/src/main/java/cn/forward/config/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/jdk/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15070">
+          <caret line="742" column="4" selection-start-line="742" selection-start-column="4" selection-end-line="742" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/Chamber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/jdk/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5346">
+          <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/RunChamber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/ChamberTwoWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/service/impl/ChamberTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="48" column="83" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/thread/ForkjoinSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycloud-provider-product/src/main/java/cn/forward/tool/MakeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
