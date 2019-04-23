@@ -1,4 +1,4 @@
-package cn.forward.service.impl;
+package cn.forward.thread;
 
 public class RunChamber {
     private static Chamber chamber=new Chamber(100);

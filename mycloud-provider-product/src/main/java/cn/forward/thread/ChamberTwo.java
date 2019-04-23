@@ -1,4 +1,4 @@
-package cn.forward.service.impl;
+package cn.forward.thread;
 
 import java.util.LinkedList;
 

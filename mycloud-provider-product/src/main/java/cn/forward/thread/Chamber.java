@@ -1,4 +1,4 @@
-package cn.forward.service.impl;
+package cn.forward.thread;
 
 public class Chamber {
     public Chamber(int masterBlood){
